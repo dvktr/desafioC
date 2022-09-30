@@ -60,7 +60,7 @@ int main()
     for (int i = 0; i <= 7; i++)
     {
       p = pow(2, i);
-      printf((armarios & p) ? "X" : " %d ", i);
+      printf((armarios & p) ? " X " : " %d ", i);
     }
     printf("\n");
   }
